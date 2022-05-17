@@ -24,14 +24,14 @@ steps:
   
 substitutions:
 
-    _PROJECT: celcom-it-pulse-backoffice-dev
+    _PROJECT: eastern-store-321607
     _ZONE: asia-southeast1-a
-    _GKE_CLUSTER: pulseosdevcluster
+    _GKE_CLUSTER: cluster-1
     
 
-    _DEPLOYMENTNAME: pulsebackrepo
-    _CONTAINERNAME: pulsebackrepo    
-    _REPO_NAME: pulsebackrepo
+    _DEPLOYMENTNAME: node
+    _CONTAINERNAME: node    
+    _REPO_NAME: apigateway
     
 
     _VERSION: v1.0
